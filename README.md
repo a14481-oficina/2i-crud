@@ -18,6 +18,10 @@ PHPMyAdmin
 HTML/CSS  
 
 # Estrutura do Projeto  
+
+```bash
+├── /css/                     # Pasta que guarda o css
+│     ├── style.css           # Arquivo de css
 /  
 |-- /config  # Arquivo de configuração do banco de dados  
 |-- /database # Scripts SQL para criação do banco de dados  
@@ -25,7 +29,7 @@ HTML/CSS
 |-- /src      # Código principal do CRUD  
 |-- index.php # Página principal do sistema  
 |-- README.md # Documentação do projeto  
-
+```
 🎯 Requisitos
 
 Servidor Web (Apache recomendado)
