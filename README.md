@@ -12,23 +12,31 @@ Editar registros existentes
 Excluir registros  
 
 # Tecnologias Utilizadas
-PHP  
-MySQL  
-PHPMyAdmin  
-HTML/CSS  
-
+PHP (https://www.php.net/) (versão 4.4 ou superior)  
+MySQL  (https://www.mysql.com/)  
+PHPMyAdmin  (https://www.phpmyadmin.net/)  
+Acesso a um servidor de alojamento (como o Alojamento-Ratis que foi usado para este projeto) com suporte a PHP e MySQL.
 # Estrutura do Projeto  
 
 ```bash
-├── /css/                     # Pasta que guarda o css
-│     ├── style.css           # Arquivo de css
-/  
-|-- /config  # Arquivo de configuração do banco de dados  
-|-- /database # Scripts SQL para criação do banco de dados  
-|-- /public   # Arquivos públicos como CSS, JS, imagens  
-|-- /src      # Código principal do CRUD  
-|-- index.php # Página principal do sistema  
-|-- README.md # Documentação do projeto  
+├── /css/                     # Pasta que guarda o css  
+│     ├── style.css           # Arquivo de css  
+├── /imges/                   # Paste onde tem algumas imagens para teste
+        ├──food-1.png         # Imagem de teste 1  
+        ├──food-2.png         # Imagem de teste 2  
+        ├──food-3.png         # Imagem de teste 3  
+        ├──food-4.png         # Imagem de teste 4  
+        ├──food-5.png         # Imagem de teste 5  
+        ├──food-6.png         # Imagem de teste 6
+├── /uploaded_img/            # Pasta onde serão colocadas as imagens inseridas na base de dados pelo utilizador  
+        ├──food-1.png         # Imagem de teste 1  
+        ├──food-2.png         # Imagem de teste 2  
+        ├──food-3.png         # Imagem de teste 3
+├── /README.md                # Ficheiro que esta a ler onde tera todas as informações sobre o projeto e como pode implementar você mesmo  
+├── /admin_page.php           # Ficheiro onde tera o frontend sendo o que se ve do site
+├── /admin_update.php         # Ficheiro onde tera o backend sendo a parte funcional como funções
+├── /config.php               # Fichiero para ligar a base de dados
+├── /produtos.sql             # Ficheiro da base de dados
 ```
 🎯 Requisitos
 
